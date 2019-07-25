@@ -9,20 +9,29 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>Mongo</artifactId>
+    <artifactId>Undertow</artifactId>
 
     <dependencies>
         <dependency>
             <groupId>io.github.splotycode.mosaik</groupId>
-            <artifactId>Database</artifactId>
+            <artifactId>WebApi</artifactId>
             <version>${mosaik.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.mongodb</groupId>
-            <artifactId>mongo-java-driver</artifactId>
-            <version>${mosaik.mongo.version}</version>
+            <groupId>io.undertow</groupId>
+            <artifactId>undertow-core</artifactId>
+            <version>${mosaik.undertow.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.undertow</groupId>
+            <artifactId>undertow-servlet</artifactId>
+            <version>${mosaik.undertow.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.undertow</groupId>
+            <artifactId>undertow-websockets-jsr</artifactId>
+            <version>${mosaik.undertow.version}</version>
         </dependency>
     </dependencies>
-
 
 </project>
