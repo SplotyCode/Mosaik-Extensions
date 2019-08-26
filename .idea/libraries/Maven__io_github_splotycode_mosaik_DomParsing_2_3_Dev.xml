@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: io.github.splotycode.mosaik:DomParsing:2.3-Dev">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/github/splotycode/mosaik/DomParsing/2.3-Dev/DomParsing-2.3-Dev.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/io/github/splotycode/mosaik/DomParsing/2.3-Dev/DomParsing-2.3-Dev-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/github/splotycode/mosaik/DomParsing/2.3-Dev/DomParsing-2.3-Dev-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -9,8 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>Undertow</artifactId>
-
+    <artifactId>Json</artifactId>
     <dependencies>
         <dependency>
             <groupId>io.github.splotycode.mosaik</groupId>
@@ -18,20 +17,11 @@
             <version>${mosaik.version}</version>
         </dependency>
         <dependency>
-            <groupId>io.undertow</groupId>
-            <artifactId>undertow-core</artifactId>
-            <version>${mosaik.undertow.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>io.undertow</groupId>
-            <artifactId>undertow-servlet</artifactId>
-            <version>${mosaik.undertow.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>io.undertow</groupId>
-            <artifactId>undertow-websockets-jsr</artifactId>
-            <version>${mosaik.undertow.version}</version>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20180813</version>
         </dependency>
     </dependencies>
+
 
 </project>

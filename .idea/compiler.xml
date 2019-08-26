@@ -8,10 +8,12 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Mongo" />
         <module name="Undertow" />
+        <module name="Json" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Extensions" target="8" />
+      <module name="Json" target="8" />
       <module name="Mongo" target="8" />
       <module name="Undertow" target="8" />
     </bytecodeTargetLevel>
